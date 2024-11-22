@@ -1,0 +1,120 @@
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background-color: #f8f8f8;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.home-container {
+width: 600px;
+background-color: #fff;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+
+.header h1 {
+font-size: 24px;
+margin-bottom: 20px;
+color: #333;
+}
+
+.icon-container {
+margin-bottom: 20px;
+}
+
+.music-icon {
+background-color: #000;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+}
+
+/* Formulário */
+.form-container input {
+width: 90%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 20px;
+outline: none;
+font-size: 14px;
+}
+
+.form-container input:focus {
+border-color: #000;
+}
+
+.form-container button {
+width: 100%;
+padding: 10px;
+background-color: #000;
+color: #fff;
+border: none;
+border-radius: 20px;
+font-size: 16px;
+cursor: pointer;
+margin-top: 10px;
+transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+background-color: #444;
+}
+
+.music-list {
+margin-top: 20px;
+}
+
+.music-item {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+margin-bottom: 10px;
+background-color: #f1f1f1;
+border-radius: 10px;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.music-info p {
+margin: 5px 0;
+font-size: 14px;
+color: #333;
+}
+
+.delete-icon,
+.edit-icon {
+cursor: pointer;
+margin: 0 5px;
+transition: color 0.3s ease;
+}
+
+.delete-icon:hover {
+color: red;
+}
+
+.edit-icon:hover {
+color: blue;
+}
+
+.loading {
+font-size: 16px;
+color: #333;
+margin-top: 20px;
+}
+
+h2{
+    margin-top: 50px;
+}
+

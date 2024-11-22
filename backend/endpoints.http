@@ -1,0 +1,79 @@
+
+POST http://localhost:3333/login
+Content-Type: application/json
+
+{
+    "email": "joao@gmail.com",
+    "senha": "123"
+}
+
+###
+
+
+
+//USUARIO
+GET http://localhost:3333/usuarios
+
+###
+
+POST http://localhost:3333/usuarios
+Content-Type: application/json
+
+{
+    "nome": "ORELHA",
+    "email": "joao@gmail.com",
+    "senha": "123",
+    "cpf": "11122233344",
+    "telefone": "1234567900",
+    "endereco": "asdasd"
+}
+
+###
+
+PUT http://localhost:3333/usuarios/a727fc99-646f-455b-8fa3-1927213b9c74
+Content-Type: application/json
+
+{
+    "nome": "ORELHA",
+    "email": "12345",
+    "senha": "BORGES",
+    "cpf": "11122233334",
+    "telefone": "1234567900",
+    "endereco": "asdasd"
+}
+
+###
+
+DELETE http://localhost:3333/usuarios/7464b07f-f254-4960-bcf9-3e81bd3a9b6a
+
+
+###
+GET http://localhost:8080/musicas
+###
+
+POST http://localhost:8080/musicas
+Content-Type: application/json
+
+{  
+        
+        "nome_musica": "333",
+        "album_musica": "444 morram todos",
+        "artista_musica": "Crentue",
+        "tempo_duracao": "28:80"
+}
+
+###
+
+PUT http://localhost:8080/musicas/3
+Content-Type: application/json
+
+{
+     "nome_musica": "Carque com muciloun",
+        "album_musica": "444 morram todos",
+        "artista_musica": "bradCaoirentue",
+        "tempo_duracao": "10:00"
+}
+
+###
+
+DELETE http://localhost:8080/musica/4
